@@ -1,0 +1,47 @@
+{
+    "Evader": {
+        "checkpoints": [
+            {
+                "steps": 499957,
+                "file_path": "results\\jumper1\\Evader\\Evader-499957.onnx",
+                "reward": 21.89999794960022,
+                "creation_time": 1681476495.496747,
+                "auxillary_file_paths": [
+                    "results\\jumper1\\Evader\\Evader-499957.pt"
+                ]
+            },
+            {
+                "steps": 842242,
+                "file_path": "results\\jumper1\\Evader\\Evader-842242.onnx",
+                "reward": 24.885712202106202,
+                "creation_time": 1681478828.6875937,
+                "auxillary_file_paths": [
+                    "results\\jumper1\\Evader\\Evader-842242.pt"
+                ]
+            },
+            {
+                "steps": 853547,
+                "file_path": "results\\jumper1\\Evader\\Evader-853547.onnx",
+                "reward": 43.74999660253525,
+                "creation_time": 1681478998.4530761,
+                "auxillary_file_paths": [
+                    "results\\jumper1\\Evader\\Evader-853547.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 853547,
+            "file_path": "results\\jumper1\\Evader.onnx",
+            "reward": 43.74999660253525,
+            "creation_time": 1681478998.4530761,
+            "auxillary_file_paths": [
+                "results\\jumper1\\Evader\\Evader-853547.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
