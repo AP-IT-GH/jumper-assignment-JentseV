@@ -5,16 +5,26 @@ using UnityEngine;
 public class BallSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject ballPrefab;
-    // Start is called before the first frame update
+    [SerializeField] private float startTime;
+
+    [SerializeField] private List<Transform> ballSpawners;
+    private bool started = false;
+    private float timer = 0;
+
     void Start()
     {
-        
         StartCoroutine(SpawnBall());
     }
 
+    void Update()
+    {
+        
+    }
+
     public IEnumerator SpawnBall(){
+        
         while(true){
-            Instantiate(ballPrefab,this.transform.position,Quaternion.identity);
+            Instantiate(ballPrefab,ballSpawners[Random.Range(0,2)].localPosition,Quaternion.identity);
             yield return new WaitForSeconds(20f);
         }
        

@@ -1,0 +1,56 @@
+{
+    "Evader": {
+        "checkpoints": [
+            {
+                "steps": 499937,
+                "file_path": "results\\jumper4\\Evader\\Evader-499937.onnx",
+                "reward": null,
+                "creation_time": 1681831668.6943717,
+                "auxillary_file_paths": [
+                    "results\\jumper4\\Evader\\Evader-499937.pt"
+                ]
+            },
+            {
+                "steps": 999963,
+                "file_path": "results\\jumper4\\Evader\\Evader-999963.onnx",
+                "reward": 28.009998202323914,
+                "creation_time": 1681835341.4671955,
+                "auxillary_file_paths": [
+                    "results\\jumper4\\Evader\\Evader-999963.pt"
+                ]
+            },
+            {
+                "steps": 1499948,
+                "file_path": "results\\jumper4\\Evader\\Evader-1499948.onnx",
+                "reward": 69.10999536514282,
+                "creation_time": 1681838622.0827765,
+                "auxillary_file_paths": [
+                    "results\\jumper4\\Evader\\Evader-1499948.pt"
+                ]
+            },
+            {
+                "steps": 1933706,
+                "file_path": "results\\jumper4\\Evader\\Evader-1933706.onnx",
+                "reward": 22.369998455047607,
+                "creation_time": 1681841741.687315,
+                "auxillary_file_paths": [
+                    "results\\jumper4\\Evader\\Evader-1933706.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1933706,
+            "file_path": "results\\jumper4\\Evader.onnx",
+            "reward": 22.369998455047607,
+            "creation_time": 1681841741.687315,
+            "auxillary_file_paths": [
+                "results\\jumper4\\Evader\\Evader-1933706.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

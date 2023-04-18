@@ -7,11 +7,14 @@ public class Ball : MonoBehaviour
      private float timeToLive;
     private Rigidbody rgb;
 
+    public static bool Dodged,Spawned = false;
+
     private float moveSpeed;
     [SerializeField] private Transform agent;
 
     void Start()
     {
+        Spawned = true;
         timeToLive = 10f;
         agent = GameObject.Find("toGo").GetComponent<Transform>();
         rgb = this.gameObject.GetComponent<Rigidbody>();
@@ -31,6 +34,12 @@ public class Ball : MonoBehaviour
         rgb.AddForce(transform.forward * moveSpeed );
     }
     public void Destroy(){
-        if(this.transform.localPosition.z > 2f || this.transform.localPosition.x < -3f) Destroy(this.gameObject);
+        if(this.transform.localPosition.z > 4f || this.transform.localPosition.x < -5f){
+            Dodged = true;
+            Spawned = false;
+            Destroy(this.gameObject);
+        } else{
+            Dodged = false;
+        }
     }
 }
