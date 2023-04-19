@@ -40,11 +40,15 @@ public class Evader : Agent
 
         timeAlive += Time.deltaTime;
         
-        if(!hit){
-            AddReward(0.01f);
-        }
+        Debug.Log(GetCumulativeReward());
+        
 
-        if(actions.DiscreteActions[0] == 1){
+        // if(timeAlive > 200f){
+        //     AddReward(1f);
+        //     EndEpisode();
+        // }
+
+        if(actions.DiscreteActions[0] == 1 && canJump){
             Jump();
             AddReward(-0.1f);
         }
@@ -65,13 +69,13 @@ public class Evader : Agent
         if(other.gameObject.tag == "Ball"){
             hit = true;
             Debug.Log("Didnt dodge the ball");
-            AddReward(-1f);
+            AddReward(-2f);
             EndEpisode();
         }   
     }
 
 
-    private void OnCollisionStay(Collision other) {
+    private void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "Floor" )
         {
             canJump = true;
