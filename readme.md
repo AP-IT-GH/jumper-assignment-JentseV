@@ -24,7 +24,7 @@ Vervolgens starten we het trainen met mlagents-learn en laten we onze Agent lere
 Hoe dichter hij bij de 5 komt hoe beter hij de oefening doet, aangezien ik hem enkel afstraf en geen beloningen geef kan hij enkel een negatieve reward krijgen.
 Hij krijgt een negatieve reward van -5 bij elke hit en bij elke jump een -0.1 reward. dit wil zeggen dat hij zowiezo zichzelf gaat laten raken na de ball zoveel keer ontweken te hebben. want anders zou hij een grotere negatieve waarde van -5 krijgen door te veel te springen. maar als hij zichzelf laat raken raken krijgt hij ook -5.
 Hij probeert dus zoveel mogelijk onder de -5 reward te springen. en zichzelf dan te laten raken. Dit houdt in dat de optimale reward ergens zal liggen rond de -9.
-zo blijft hij het langste in leven en gaat hij ook niet boven de -5 reward door teveel te springen. wat we uiteindelijk ook zien in onze Graph dat de beste value rond de -8.8 - -9 ligt.
+zo blijft hij het langste in leven en gaat hij ook niet boven de -5 reward door teveel te springen. wat we uiteindelijk ook zien in onze Graph dat de beste value rond de -8.8 - -9 zou komen te liggen (het trainen duurt enkel heel lang).
 <p>
 <h2> Training Graph </h2>
-![Training graph of the agent](./Assets/Images/training.png "Agent's learning graph")
+![Training graph of the agent](/Assets/Images/training.png "Agent's learning graph")
