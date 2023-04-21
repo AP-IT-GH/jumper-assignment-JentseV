@@ -21,4 +21,4 @@ Ballspawners krijgen gewoon een fixed positie en het Ballspawner script mee. Hie
 Vervolgens starten we het trainen met mlagents-learn en laten we onze Agent leren. 
 
 <h2> Training Graph </h2>
-![Training graph of the agent](/Assets/Images/training.jpg "Agent's learning graph")
+![Training graph of the agent](/Assets/Images/training.PNG "Agent's learning graph")
