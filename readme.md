@@ -27,4 +27,4 @@ Hij probeert dus zoveel mogelijk onder de -5 reward te springen. en zichzelf dan
 zo blijft hij het langste in leven en gaat hij ook niet boven de -5 reward door teveel te springen. wat we uiteindelijk ook zien in onze Graph dat de beste value rond de -8.8 - -9 zou komen te liggen (het trainen duurt enkel heel lang).
 <p>
 <h2> Training Graph </h2>
-![Training graph of the agent](https://github.com/AP-IT-GH/jumper-assignment-JentseV/blob/master/Assets/Images/training.PNG "Agent's learning graph")
+![Training graph of the agent](![training](https://user-images.githubusercontent.com/114088831/233712447-98f906cb-ae02-43de-a410-270ce57e64df.png) "Agent's learning graph")
