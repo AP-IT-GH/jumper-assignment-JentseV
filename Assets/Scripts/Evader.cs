@@ -43,11 +43,6 @@ public class Evader : Agent
         Debug.Log(GetCumulativeReward());
         
 
-        // if(timeAlive > 200f){
-        //     AddReward(1f);
-        //     EndEpisode();
-        // }
-
         if(actions.DiscreteActions[0] == 1 && canJump){
             Jump();
             AddReward(-0.1f);

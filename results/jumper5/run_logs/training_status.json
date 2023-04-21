@@ -2,40 +2,58 @@
     "Evader": {
         "checkpoints": [
             {
-                "steps": 499985,
-                "file_path": "results\\jumper5\\Evader\\Evader-499985.onnx",
-                "reward": -2.4000000059604645,
-                "creation_time": 1681933434.582303,
+                "steps": 1809206,
+                "file_path": "results\\jumper5\\Evader\\Evader-1809206.onnx",
+                "reward": -5.4000000059604645,
+                "creation_time": 1682100401.627592,
                 "auxillary_file_paths": [
-                    "results\\jumper5\\Evader\\Evader-499985.pt"
+                    "results\\jumper5\\Evader\\Evader-1809206.pt"
                 ]
             },
             {
-                "steps": 556874,
-                "file_path": "results\\jumper5\\Evader\\Evader-556874.onnx",
-                "reward": null,
-                "creation_time": 1681933859.1467862,
+                "steps": 1982310,
+                "file_path": "results\\jumper5\\Evader\\Evader-1982310.onnx",
+                "reward": -6.700000025331974,
+                "creation_time": 1682101691.6941707,
                 "auxillary_file_paths": [
-                    "results\\jumper5\\Evader\\Evader-556874.pt"
+                    "results\\jumper5\\Evader\\Evader-1982310.pt"
                 ]
             },
             {
-                "steps": 890778,
-                "file_path": "results\\jumper5\\Evader\\Evader-890778.onnx",
-                "reward": -2.2000000029802322,
-                "creation_time": 1682021875.0653634,
+                "steps": 1999964,
+                "file_path": "results\\jumper5\\Evader\\Evader-1999964.onnx",
+                "reward": -7.400000035762787,
+                "creation_time": 1682102097.8482468,
                 "auxillary_file_paths": [
-                    "results\\jumper5\\Evader\\Evader-890778.pt"
+                    "results\\jumper5\\Evader\\Evader-1999964.pt"
+                ]
+            },
+            {
+                "steps": 2001372,
+                "file_path": "results\\jumper5\\Evader\\Evader-2001372.onnx",
+                "reward": -7.400000035762787,
+                "creation_time": 1682102107.6658077,
+                "auxillary_file_paths": [
+                    "results\\jumper5\\Evader\\Evader-2001372.pt"
+                ]
+            },
+            {
+                "steps": 2043881,
+                "file_path": "results\\jumper5\\Evader\\Evader-2043881.onnx",
+                "reward": -12.300000011920929,
+                "creation_time": 1682102497.7898712,
+                "auxillary_file_paths": [
+                    "results\\jumper5\\Evader\\Evader-2043881.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 890778,
+            "steps": 2043881,
             "file_path": "results\\jumper5\\Evader.onnx",
-            "reward": -2.2000000029802322,
-            "creation_time": 1682021875.0653634,
+            "reward": -12.300000011920929,
+            "creation_time": 1682102497.7898712,
             "auxillary_file_paths": [
-                "results\\jumper5\\Evader\\Evader-890778.pt"
+                "results\\jumper5\\Evader\\Evader-2043881.pt"
             ]
         }
     },
