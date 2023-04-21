@@ -18,15 +18,24 @@
                 "auxillary_file_paths": [
                     "results\\jumper5\\Evader\\Evader-556874.pt"
                 ]
+            },
+            {
+                "steps": 890778,
+                "file_path": "results\\jumper5\\Evader\\Evader-890778.onnx",
+                "reward": -2.2000000029802322,
+                "creation_time": 1682021875.0653634,
+                "auxillary_file_paths": [
+                    "results\\jumper5\\Evader\\Evader-890778.pt"
+                ]
             }
         ],
         "final_checkpoint": {
-            "steps": 556874,
+            "steps": 890778,
             "file_path": "results\\jumper5\\Evader.onnx",
-            "reward": null,
-            "creation_time": 1681933859.1467862,
+            "reward": -2.2000000029802322,
+            "creation_time": 1682021875.0653634,
             "auxillary_file_paths": [
-                "results\\jumper5\\Evader\\Evader-556874.pt"
+                "results\\jumper5\\Evader\\Evader-890778.pt"
             ]
         }
     },

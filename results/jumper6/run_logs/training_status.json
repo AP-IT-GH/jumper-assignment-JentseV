@@ -1,0 +1,38 @@
+{
+    "Evader": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results\\jumper6\\Evader\\Evader-499998.onnx",
+                "reward": -7.60000017285347,
+                "creation_time": 1682026152.49281,
+                "auxillary_file_paths": [
+                    "results\\jumper6\\Evader\\Evader-499998.pt"
+                ]
+            },
+            {
+                "steps": 853251,
+                "file_path": "results\\jumper6\\Evader\\Evader-853251.onnx",
+                "reward": -9.300000119954348,
+                "creation_time": 1682032380.9279194,
+                "auxillary_file_paths": [
+                    "results\\jumper6\\Evader\\Evader-853251.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 853251,
+            "file_path": "results\\jumper6\\Evader.onnx",
+            "reward": -9.300000119954348,
+            "creation_time": 1682032380.9279194,
+            "auxillary_file_paths": [
+                "results\\jumper6\\Evader\\Evader-853251.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
