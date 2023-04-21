@@ -69,7 +69,7 @@ public class Evader : Agent
         if(other.gameObject.tag == "Ball"){
             hit = true;
             Debug.Log("Didnt dodge the ball");
-            AddReward(-2f);
+            AddReward(-5f);
             EndEpisode();
         }   
     }
