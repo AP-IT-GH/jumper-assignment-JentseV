@@ -27,4 +27,6 @@ Hij probeert dus zoveel mogelijk onder de -5 reward te springen. en zichzelf dan
 zo blijft hij het langste in leven en gaat hij ook niet boven de -5 reward door teveel te springen. wat we uiteindelijk ook zien in onze Graph dat de beste value rond de -8.8 - -9 zou komen te liggen (het trainen duurt enkel heel lang).
 <p>
 <h2> Training Graph </h2>
+
+
 ![Training](training.jpg)
